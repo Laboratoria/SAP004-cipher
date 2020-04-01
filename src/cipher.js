@@ -10,7 +10,7 @@ const cipher = {
         stringOutput.push(String.fromCharCode(z));
     }
     let encodedText = stringOutput.join('');  
-    alert(encodedText);
+    
     return encodedText; 
             
   },
@@ -25,7 +25,7 @@ const cipher = {
         stringOutput.push(String.fromCharCode(z));
     }
     let decodedText = stringOutput.join('');
-    alert(decodedText);
+    
     return decodedText;
   }
 

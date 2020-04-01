@@ -9,14 +9,10 @@ function getText() {
     const offsetValue = document.getElementById("insertOffset").value;   
     
     if(document.activeElement.id === "encodeButton"){
-
-        alert("Encode");
-        
+               
         document.getElementById("showTextCD").innerHTML = cipher.encode(offsetValue, textEorD);
 
-    }else{
-
-        alert("Decode");
+    }else{        
        
         document.getElementById("showTextCD").innerHTML = cipher.decode(offsetValue, textEorD);
 
