@@ -6,7 +6,7 @@ const cipher = {
     for(let i = 0; i < stringInput.length; i++) {
         let x = Number(offset);
         let y = (stringInput.charCodeAt(i));      
-        let z = ((((y - 65) + x) % 25) + 65);
+        let z = ((((y - 65) + x) % 26) + 65);
         stringOutput.push(String.fromCharCode(z));
     }
     let encodedText = stringOutput.join('');  
@@ -21,7 +21,7 @@ const cipher = {
     for(let i = 0; i < stringInput.length; i++) {
         let x = Number(offset);
         let y = (stringInput.charCodeAt(i));      
-        let z = ((((y - 65) - x) % 25) + 65);
+        let z = ((((y + 65) - x) % 26) + 65);
         stringOutput.push(String.fromCharCode(z));
     }
     let decodedText = stringOutput.join('');
