@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Coiny', cursive;
+
+    background-image: linear-gradient(rgb(86, 182, 226), #d661b9);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
