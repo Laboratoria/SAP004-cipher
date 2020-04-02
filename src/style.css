@@ -1,10 +1,10 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Coiny', cursive; 
-    background-image: linear-gradient(rgb(134, 180, 197), rgb(250, 182, 243));
+* { 
+    font-family: 'Coiny', cursive;     
+}
+
+body {
     background-size: cover;
-    background-image: url("newLayout.png");
+    background-image: url("newLayoutV2.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -13,6 +13,8 @@
 header {
     color: #626fa6;
     text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
 }
 
 section {
@@ -22,5 +24,12 @@ section {
 
 button {
     color:	#fbf7fc;
+}
+
+div {
+    height: 370px;
+    width: 380px;
+    margin: auto;  
+    background: rgba(155, 180, 204, 0.5)
 }
 
