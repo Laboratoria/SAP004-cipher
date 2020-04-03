@@ -17,25 +17,25 @@
         <section>
             <div>
                 <form id="textInsert" name="textInsert" method="POST" action="">
-                    <label for="insertTextForCD">Insira o texto:</label>
+                    <label for="insertTextForCD" class="toAlign">Insira o texto:</label>
                     <br>
-                    <textarea id="insertTextForCD" type="text" cols="40" rows="4" placeholder="Digite aqui o texto para ser codificado ou decodificado" autofocus></textarea>              
+                    <textarea id="insertTextForCD" class="toAlign" type="text" cols="40" rows="4" placeholder="Digite aqui o texto para ser codificado ou decodificado" autofocus></textarea>              
                                 
                     <br>                   
                     <br>
-                    <label for="insertOffset">Insira o Offset:</label>               
+                    <label for="insertOffset" id="insertOffsetLabel" class="toAlign">Insira o Offset:</label>               
                     <textarea id="insertOffset" type="text" cols="24" rows="1"></textarea> 
                     <br>                        
                 </form> 
 
                 <br>
 
-                <button id="encodeButton">Codificar</button>       
+                <button id="encodeButton" class="toAlign">Codificar</button>       
                 <button id="decodeButton">Decodificar</button>
 
                 <form id="finalShow"> 
                     <br>
-                    <textarea id="showTextCD" type="text" cols="40" rows="4" readonly></textarea>
+                    <textarea id="showTextCD" class="toAlign" type="text" cols="40" rows="4" readonly></textarea>
                     
                 </form>
             </div>                        

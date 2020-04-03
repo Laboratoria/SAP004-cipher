@@ -4,7 +4,7 @@
 
 body {
     background-size: cover;
-    background-image: url("newLayoutV2.png");
+    background-image: url("newLayoutV3.png");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
@@ -15,6 +15,7 @@ header {
     text-align: center;
     font-size: 28px;
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 section {
@@ -30,6 +31,17 @@ div {
     height: 370px;
     width: 380px;
     margin: auto;  
-    background: rgba(155, 180, 204, 0.5)
+    background: rgba(155, 180, 204, 0.5);
+    border-radius: 14px;
+     
 }
+
+.toAlign {
+    margin-left: 20px;
+}
+
+#decodeButton {
+    margin-left: 160px;
+}
+
 
