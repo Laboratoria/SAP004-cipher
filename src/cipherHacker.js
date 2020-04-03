@@ -37,7 +37,7 @@ const cipher = {
             }else{
                 let x = Number(offset);
                 let y = (stringInput.charCodeAt(i));      
-                let z = ((((y + 97) - (x*57)) % 26) + 97);
+                let z = ((((y + 97) - x) % 26) + 97);
                 stringOutput.push(String.fromCharCode(z)); 
             }        
         }
