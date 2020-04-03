@@ -1,4 +1,4 @@
-import cipher from './cipher.js';
+import cipher from './cipherHacker.js';
 
 document.getElementById("encodeButton").addEventListener("click",getText);
 document.getElementById("decodeButton").addEventListener("click",getText);
