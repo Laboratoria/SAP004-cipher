@@ -11,11 +11,13 @@ const cipher = {
                 let y = (stringInput.charCodeAt(i));      
                 let z = ((((y - 65) + x) % 26) + 65);
               stringOutput.push(String.fromCharCode(z));
-            }else{
+            }else if(stringInput.charCodeAt(i) >= 97 && stringInput.charCodeAt(i) <= 122){
                 let x = Number(offset);
                 let y = (stringInput.charCodeAt(i));      
                 let z = ((((y - 97) + x) % 26) + 97);
                 stringOutput.push(String.fromCharCode(z));
+            }else{
+                stringOutput.push(String.fromCharCode(stringInput.charCodeAt(i)));  
             }            
         }
         let encodedText = stringOutput.join('');  
@@ -34,12 +36,15 @@ const cipher = {
                 let y = (stringInput.charCodeAt(i));      
                 let z = ((((y + 65) - x) % 26) + 65);
                 stringOutput.push(String.fromCharCode(z));
-            }else{
+            
+            }else if(stringInput.charCodeAt(i) >= 97 && stringInput.charCodeAt(i) <= 122){
                 let x = Number(offset);
                 let y = (stringInput.charCodeAt(i));      
-                let z = ((((y + 97) - x) % 26) + 97);
+                let z = ((((y - 97) - x) % -26) + 97);
                 stringOutput.push(String.fromCharCode(z)); 
-            }        
+            }else{        
+                stringOutput.push(String.fromCharCode(stringInput.charCodeAt(i)));  
+            }       
         }
         let decodedText = stringOutput.join('');
         
@@ -49,3 +54,8 @@ const cipher = {
    };
     
     export default cipher;
+
+
+    /*
+    
+    */
