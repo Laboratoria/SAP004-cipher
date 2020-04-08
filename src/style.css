@@ -26,6 +26,7 @@ section {
 button {
     color:	#fbf7fc;
     background-color: #626fa6;
+    border: 1px solid #fbf7fc;
     border-radius: 7px;
 }
 
@@ -44,6 +45,10 @@ div {
 
 #decodeButton {
     margin-left: 160px;
+}
+
+#showTextCD, #insertTextForCD, #insertOffset {
+    color: #626fa6;
 }
 
 

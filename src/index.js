@@ -3,13 +3,6 @@ import cipher from './cipherHacker.js';
 document.getElementById("encodeButton").addEventListener("click",getText);
 document.getElementById("decodeButton").addEventListener("click",getText);
 
-document.getElementById("encodeButton").addEventListener("mouseover",mouseOverColorE);
-document.getElementById("decodeButton").addEventListener("mouseover",mouseOverColorD);
-
-document.getElementById("encodeButton").addEventListener("mouseout",mouseOutColorE);
-document.getElementById("decodeButton").addEventListener("mouseout",mouseOutColorD);
-
-
 function getText() {
     
     const textEorD = document.getElementById("insertTextForCD").value;         
@@ -26,6 +19,15 @@ function getText() {
     }
 
  }
+
+ // Adicionando interações nos botões
+
+ document.getElementById("encodeButton").addEventListener("mouseover",mouseOverColorE);
+ document.getElementById("decodeButton").addEventListener("mouseover",mouseOverColorD);
+ 
+ document.getElementById("encodeButton").addEventListener("mouseout",mouseOutColorE);
+ document.getElementById("decodeButton").addEventListener("mouseout",mouseOutColorD);
+
 
  function mouseOverColorE() {
     document.getElementById("encodeButton").style.backgroundColor = '#fbf7fc';
