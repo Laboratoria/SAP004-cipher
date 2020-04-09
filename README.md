@@ -31,3 +31,21 @@ A funcionalide essencial do Wow! Baby Name é codigicar ou decodificar textos ba
 
 
 ## 3. Informações sobre o desenvolvimento
+
+Para o desenvolvimento desta web application foi realizado pesquisas acerca dos seguintes temas:
+
+* cifra de César
+* aplicação web
+* experiência do usuário
+* UX & UI
+* vanilla JavaScript
+* Processo de prototipação
+* Design 
+Entre outros temas.
+
+A partir do conhecimento adquirido foi criado layouts de prototipação, como o a seguir, a partir do programa GIMP - GNU GPLv3+ (software livre para criação e edição de imagens):
+
+![prototype](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/visualPlanning2.png)
+
+Tal imagem foi usada como base para a definição do produto final e da interface acessada pelos usuários.
+Os usuários foram definidos a partir da ideia central do produto: divulgar nome e sexo dos babies. Logo, os usuários são os papais e mamães e as pessoas que desejam descobrir as informações codificadas.
