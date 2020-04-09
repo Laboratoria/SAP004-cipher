@@ -16,26 +16,13 @@
 ![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
 
-Definição do produto
-
-Quem são os principais usuário do produto?
--> Papais e mamães.
-
-Quais são os objetivos do usuário em relação com o produto?
--> Descobrir o nome e o sexo da criança.
-
-Como você acredita que o produto está resolvendo os problemas do usuário?
--> Cada usuário poderá enviar um cartão com as palavras cifradas para cada pessoa que deseja descobrir tais informações, mantendo um aspecto de surpresa e euforia para essa nova descoberta.
--> É uma forma divertida de divulgar tal informação.
--> O usuário poderá enviar para outras pessoas as informações cifradas e só depois informar/explicar qual offset de cada um para que haja a conferência conjuntamente.
-
 
 ## 2. Resumo do projeto
 
 
 ## 3. Objetivos de aprendizagem
 
-* **Implementar uma função** dada a descrição do seu comportamento.
+* **Implementar uma função** 
 
 ## 4. Considerações gerais
 
