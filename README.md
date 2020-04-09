@@ -13,15 +13,22 @@
 
 ## 1. Prefácio
 
-[cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
-
 ![caeser-cipher](https://user-images.githubusercontent.com/11894994/60990999-07ffdb00-a320-11e9-87d0-b7c291bc4cd1.png)
 
 
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
+Definição do produto
+
+Quem são os principais usuário do produto?
+-> Papais e mamães.
+
+Quais são os objetivos do usuário em relação com o produto?
+-> Descobrir o nome e o sexo da criança.
+
+Como você acredita que o produto está resolvendo os problemas do usuário?
+-> Cada usuário poderá enviar um cartão com as palavras cifradas para cada pessoa que deseja descobrir tais informações, mantendo um aspecto de surpresa e euforia para essa nova descoberta.
+-> É uma forma divertida de divulgar tal informação.
+-> O usuário poderá enviar para outras pessoas as informações cifradas e só depois informar/explicar qual offset de cada um para que haja a conferência conjuntamente.
+
 
 ## 2. Resumo do projeto
 
@@ -37,16 +44,6 @@
 
 ### Definição do produto
 
-No README.md, escreva como você definiu seu usuário e qual foi o processo para
-definir o produto final a nível de expriência e interface.
-
-* Quem são os principais usuário do produto?
-* Quais são os objetivos do usuário em relação com o produto?
-* Como você acredita que o produto está resolvendo os problemas do usuário?
-
-### Interface do usuário (UI)
-
-
 ### Scripts / Arquivos
 
 * `REAME.md`: deve explicar como fazer deploy, instalar e executar a aplicação,
@@ -61,23 +58,7 @@ definir o produto final a nível de expriência e interface.
   com o produto.
 * [ ] `README.md` explicar claramente como o produto soluciona os
   problemas/necessidades dos usuários.
-* [ ] Usar VanillaJS.
-* [ ] **Não** usar `this`.
-* [ ] Implementar `cipher.encode`.
-* [ ] Implementar `cipher.decode`.
 * [ ] Passar o linter com a configuração definida.
 * [ ] Passar as provas unitárias.
 * [ ] Testes unitários cubrindo 70% dos _statements_, _functions_ e _lines_, e
   no mínimo 50% das _branches_.
-* [ ] Interface que permita escolher o `offset` (chave de deslocamento) usava
-  para cifrar/decifrar.
-* [ ] Interface que permita escrever um texto para ser cifrado.
-* [ ] Interface que mostre o resultado da cifra corretamente.
-* [ ] Interface que permita escrever um texto para ser decifrado.
-* [ ] Interface que mostre o resultado decifrado corretamente.
-
-### Parte Opcional: "Hacker edition"
-
-* [ ] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espações, pontuação, `ç`, `á`, ...).
-* [ ] Permitir usar `offset` negativo.
