@@ -55,4 +55,4 @@ Os usuários foram definidos a partir da ideia central do produto: divulgar nome
 
 O planejamento de tal projeto foi feito principalmente através da ferramenta organizacional [Trello](https://trello.com/):
 
-![trello]()
+![trello](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/trelloImage.png)
