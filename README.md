@@ -20,7 +20,7 @@ Wow! Baby Name é uma web application divertida para a divulgação do nome e se
 
 ### Definição do produto
 
-Wow! Baby Name é uma web application direcionada para papais, mamães e curiosos. Mamães e papais podem divulgar informações acerca dos seus babies através dessa aplicação, e outras pessoas podem descobrir tais informações atrasvés da mesma.
+Wow! Baby Name é uma web application direcionada para papais, mamães e curiosos. Mamães e papais podem divulgar informações acerca dos seus babies através dessa aplicação, e outras pessoas podem descobrir tais informações através da mesma.
 
 * Cada usuário poderá enviar um código com as palavras cifradas para cada pessoa que deseja descobrir tais informações, mantendo um aspecto de surpresa e euforia para essa nova descoberta.
 * É uma forma divertida de divulgar tal informação.
@@ -28,8 +28,8 @@ Wow! Baby Name é uma web application direcionada para papais, mamães e curioso
 
 ## 2. Considerações técnicas
 
-Para usar a web application basta acessar o [link](https://amandazaine.github.io/SAP004-cipher/src/). Tal aplicação consistes em uma caixa central, onde há outras tres caixas menores e dois botões. A primeira caixa menor é onde se insere o texto a ser codificado ou decodificado, a segunda é para a inserção do Offset e a última para exibição do resultado da codificação ou decodificação. Os botões acionam a codificação ou decodificação de acordo com seu título.
-A funcionalide essencial do Wow! Baby Name é codigicar ou decodificar textos baseados na estrutura de Cifra de César a partir de um Offset conhecido. As decisões necessárias a serem tomadas é se o usuário deseja fazer a codificação ou decodificação de acordo o Offset que o mesmo deseja.
+Para usar a web application basta acessar o [link](https://amandazaine.github.io/SAP004-cipher/src/). Tal aplicação consiste em uma caixa central, onde há outras três caixas menores e dois botões. A primeira caixa menor é onde se insere o texto a ser codificado ou decodificado, a segunda é para a inserção do Offset e a última para exibição do resultado da codificação ou decodificação. Os botões acionam a codificação ou decodificação de acordo com seu título.
+A funcionalidade essencial do Wow! Baby Name é codigicar ou decodificar textos baseados na estrutura de Cifra de César a partir de um Offset conhecido. As decisões necessárias a serem tomadas é se o usuário deseja fazer a codificação ou decodificação de acordo o Offset que o mesmo deseja.
 
 
 ## 3. Informações sobre o desenvolvimento
@@ -43,6 +43,7 @@ Para o desenvolvimento desta web application foi realizado pesquisas acerca dos 
 * vanilla JavaScript
 * Processo de prototipação
 * Design 
+
 Entre outros temas.
 
 A partir do conhecimento adquirido foi criado layouts de prototipação, como o a seguir, a partir do programa GIMP - GNU GPLv3+ (software livre para criação e edição de imagens):
@@ -51,3 +52,7 @@ A partir do conhecimento adquirido foi criado layouts de prototipação, como o 
 
 Tal imagem foi usada como base para a definição do produto final e da interface acessada pelos usuários.
 Os usuários foram definidos a partir da ideia central do produto: divulgar nome e sexo dos babies. Logo, os usuários são os papais e mamães e as pessoas que desejam descobrir as informações codificadas.
+
+O planejamento de tal projeto foi feito principalmente através da ferramenta organizacional [Trello](https://trello.com/):
+
+![trello]()
