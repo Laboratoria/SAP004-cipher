@@ -12,7 +12,7 @@ Para acessar clique [aqui](https://amandazaine.github.io/SAP004-cipher/src/)
 
 ## 1. Prefácio
 
-Wow! Baby Name é uma web application divertida para a divulgação do nome e sexo dos babies. Pode ser divulgado apenas pelo compartilhamento simples do código a ser decifrado e o link para o acesso a aplicação, tanto por meio de cards personalizados ao gosto dos papais e mamães: 
+Wow! Baby Name é uma web application divertida para a divulgação do nome e sexo dos babies. Pode ser divulgado apenas pelo compartilhamento simples do código a ser decifrado e o link para o acesso à aplicação, tanto por meio de cards personalizados ao gosto dos papais e mamães: 
 
 ![card-front](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/cardFront.png)
 
