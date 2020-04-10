@@ -34,7 +34,7 @@ A funcionalidade essencial do Wow! Baby Name é codificar ou decodificar textos 
 
 ## 3. Informações sobre o desenvolvimento
 
-Para o desenvolvimento desta web application foi realizado pesquisas acerca dos seguintes temas:
+Para o desenvolvimento desta web application foram realizadas pesquisas acerca dos seguintes temas:
 
 * cifra de César
 * aplicação web
@@ -46,7 +46,7 @@ Para o desenvolvimento desta web application foi realizado pesquisas acerca dos 
 
 Entre outros temas.
 
-A partir do conhecimento adquirido foi criado layouts de prototipação, como o a seguir, a partir do programa GIMP - GNU GPLv3+ (software livre para criação e edição de imagens):
+A partir do conhecimento adquirido foram criados layouts de prototipação, como o a seguir, a partir do programa GIMP - GNU GPLv3+ (software livre para criação e edição de imagens):
 
 ![prototype](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/visualPlanning2.png)
 
