@@ -14,9 +14,9 @@ Para acessar clique [aqui](https://amandazaine.github.io/SAP004-cipher/src/)
 
 Wow! Baby Name é uma web application divertida para a divulgação do nome e sexo dos babies. Pode ser divulgado apenas pelo compartilhamento simples do código a ser decifrado e o link para o acesso à aplicação, tanto por meio de cards personalizados ao gosto dos papais e mamães: 
 
-![card-front](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/cardFront.png)
+![card-front](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/imagesForREADME/cardFront.png)
 
-![card-back](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/cardBack.png)
+![card-back](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/imagesForREADME/cardBack.png)
 
 ### Definição do produto
 
@@ -48,11 +48,11 @@ Entre outros temas.
 
 A partir do conhecimento adquirido foram criados layouts de prototipação, como o a seguir, a partir do programa GIMP - GNU GPLv3+ (software livre para criação e edição de imagens):
 
-![prototype](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/visualPlanning2.png)
+![prototype](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/imagesForREADME/visualPlanning2.png)
 
 Tal imagem foi usada como base para a definição do produto final e da interface acessada pelos usuários.
 Os usuários foram definidos a partir da ideia central do produto: divulgar nome e sexo dos babies. Logo, os usuários são os papais e mamães e as pessoas que desejam descobrir as informações codificadas.
 
 O planejamento de tal projeto foi feito principalmente através da ferramenta organizacional [Trello](https://trello.com/):
 
-![trello](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/trelloImage.png)
+![trello](https://github.com/AmandaZaine/SAP004-cipher/blob/master/src/imagesForREADME/trelloImage.png)
