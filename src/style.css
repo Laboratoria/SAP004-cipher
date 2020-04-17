@@ -19,8 +19,7 @@ header {
 }
 
 section {
-    color:	#fbf7fc;
-    
+    color:	#fbf7fc;  
 }
 
 button {
@@ -35,19 +34,18 @@ div {
     width: 380px;
     margin: auto;  
     background: rgba(155, 180, 204, 0.5);
-    border-radius: 14px;
-     
+    border-radius: 14px;    
 }
 
-.toAlign {
+.to-align {
     margin-left: 20px;
 }
 
-#decodeButton {
+#decode-button {
     margin-left: 160px;
 }
 
-#showTextCD, #insertTextForCD, #insertOffset {
+.text-color {
     color: #626fa6;
 }
 
