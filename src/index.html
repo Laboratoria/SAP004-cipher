@@ -2,11 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="shortcut icon" href="favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-
+        <link rel="stylesheet" href="style.css">      
         <title>Wow! Baby Name</title>
-
     </head>
 
     <body>
@@ -14,33 +13,26 @@
            <h1>Wow! Baby Name</h1>
         </header>
 
-        <section>
-            <div>
-                <form id="text-insert" name="text-insert" method="POST" action="">
-                    <label for="insert-text-for-cd" class="to-align">Insira o texto:</label>
+            <div class="background-container ">
+                <form id="text-insert" name="text-insert" class="text-color-div">
+                    <label for="insert-text-for-cd">Insira o texto:</label>
                     <br>
-                    <textarea id="insert-text-for-cd" class="to-align text-color" type="text" cols="40" rows="4" placeholder="Digite aqui o texto para ser codificado ou decodificado" autofocus></textarea>              
+                    <textarea id="insert-text-for-cd" class="text-color" type="text" cols="40" rows="4" placeholder="Digite aqui o texto para ser codificado ou decodificado" autofocus></textarea>              
                                 
-                    <br>                   
-                    <br>
-                    <label for="insert-offset" id="insert-offset-label" class="to-align">Insira o Offset:</label>               
-                    <textarea id="insert-offset" class="text-color" type="text" cols="24" rows="1"></textarea> 
-                    <br>                        
+                    <label for="insert-offset" id="insert-offset-label">Insira o Offset:</label>               
+                    <textarea id="insert-offset" class="text-color" type="text" cols="10" rows="1"></textarea> 
+                        
                 </form> 
 
-                <br>
-
-                <button id="encode-button" class="to-align">Codificar</button>       
+                <button id="encode-button" >Codificar</button>       
                 <button id="decode-button">Decodificar</button>
 
                 <form id="final-show"> 
                     <br>
-                    <textarea id="show-text-cd" class="to-align text-color" type="text" cols="40" rows="4" readonly></textarea>
+                    <textarea id="show-text-cd" class="text-color" type="text" cols="40" rows="4" readonly></textarea>
                     
                 </form>
             </div>                        
-        </section>
-
         
         <script src="index.js" type="module"></script>
     </body>

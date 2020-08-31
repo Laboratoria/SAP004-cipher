@@ -18,8 +18,8 @@ header {
     margin-bottom: 40px;
 }
 
-section {
-    color:	#fbf7fc;  
+.text-color-div {
+    color:	#ffffff; 
 }
 
 button {
@@ -29,16 +29,13 @@ button {
     border-radius: 7px;
 }
 
-div {
-    height: 370px;
-    width: 380px;
+.background-container {
+    height: auto;
+    width: 340px;
     margin: auto;  
     background: rgba(155, 180, 204, 0.5);
-    border-radius: 14px;    
-}
-
-.to-align {
-    margin-left: 20px;
+    border-radius: 14px; 
+    padding: 20px;
 }
 
 #decode-button {
